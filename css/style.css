@@ -1,1 +1,63 @@
 body {background-color: #EDDAD6;}
+/*
+color used: 
+primary color: #000000;
+secondary color: #434343; 
+background color: #EDDAD6;
+*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #EDDAD6;
+    font-family: 'Roboro', sans-serif;
+    font-size: 16px; /* Sets the font size to 16px */
+    font-weight: 300; /* Sets the font weight to 300 */
+    line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+    color: #000000;
+  }
+  
+  h1, h2, h3, h4 {
+    line-height: 1.4;
+  }
+  h1 {
+    font-size: 2.75em;
+    font-weight: 700;
+  }
+  
+  h2 {
+    font-size: 2.25em;
+    font-weight: 700;
+  }
+  
+  h3 {
+    font-size: 1.75em;
+    font-weight: 400;
+  }
+  h4 {
+    font-size: 1.35em;
+    font-weight: 400;
+  }
+  img {
+    width: 100%;
+  }
+  a {
+    color: #50b0ff;
+    text-decoration: none; /*No underlining */
+}
+a:hover {
+    color: #cc6540;
+    text-decoration: underline; /* Underlining when hovering over
+    a link */
+}
+a:visited { /* visited link */
+    color: #50b0ff;
+  }
+  a:active { /* selected link */
+    color: #50b0ff;
+  }
+  a:hover,
+a:focus {
+  color: #cc6540;
+  text-decoration: underline;
+}
