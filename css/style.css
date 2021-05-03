@@ -51,7 +51,7 @@ a:hover {
     a link */
 }
 a:visited { /* visited link */
-    color: #ffffff;
+    color: #112903;
   }
   a:active { /* selected link */
     color: #50b0ff;
@@ -85,3 +85,4 @@ a:focus {
     background-color: #4CC911;
     color: #ffffff;
   }
+  
