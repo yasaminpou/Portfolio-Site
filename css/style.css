@@ -130,3 +130,9 @@ nav {
     font-weight: 500;
     color: #000000;
 }
+#hero {
+    background-color: #9fa1b9
+padding 20px 0;
+display: inline-block;
+width: 100%
+}
