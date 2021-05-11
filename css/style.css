@@ -93,6 +93,15 @@ margin: 10px;
 border: 3px;
   }
 /* Layout styling */
+selector {
+    position: relative;
+}
+selector {
+    float: left;
+}
+selector {
+    width: 80%;
+}
 .container {
     padding: 0 15px;
 }
@@ -150,6 +159,7 @@ nav {
     margin-top:4px;
 }
 }
+
 /* ==============================
 Large devices (1024px and larger)
 ================================= */
@@ -170,4 +180,23 @@ Extra-large devices (1920px and larger)
 }
 .col-md-6 {
     width: 50%;
+}
+[class*="col-"] {
+    float: left;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.col-lg-5 {
+    width: 50%;
+}
+.col-lg-7 {
+    width: 50%;
+}
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
