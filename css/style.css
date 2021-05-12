@@ -202,3 +202,25 @@ Extra-large devices (1920px and larger)
     margin-left: auto;
     margin-right: auto;
 }
+@keyframes color-change {
+    from { fill: rgba(8,25,43,0.75);}
+    to {fill: #949494}
+}
+.background {
+    animation-duration: 4s;
+    animation-name: color-change;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes picture-move {
+    from { transform: translate(0,0px);}
+    to { transform: translate(200px,0px);}
+}
+.picture {
+    animation-duration: 30s;
+    animation-name: picture-move;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
