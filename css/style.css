@@ -215,7 +215,7 @@ Extra-large devices (1920px and larger)
 }
 @keyframes picture-move {
     from { transform: translate(0,0px);}
-    to { transform: translate(200px,0px);}
+    to { transform: translate(100px,0px);}
 }
 .picture {
     animation-duration: 30s;
