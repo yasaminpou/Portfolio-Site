@@ -149,8 +149,8 @@ nav {
     font-weight: 500;
     color: #000000;
 }
-.navtoggle.responsive li {
-    display: block;
+.navtoggle li:not(:last-child) {
+    display: none;
 }
 #hero {
     background-color: #9fa1b9
@@ -244,9 +244,7 @@ Extra-large devices (1920px and larger)
     animation-direction: alternate;
     animation-timing-function: linear;
 }
-.navtoggle li:not(:last-child) {
-    display: none;
-}
+
 .navtoggle, .navtoggle.responsive {
     position: relative;
 }
