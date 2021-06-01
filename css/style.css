@@ -263,6 +263,6 @@ Extra-large devices (1920px and larger)
     padding: 10px 0;
     border-top: 1px solid rgba(255,127,80,0.5);
 }
-navtoggle.responsive li: last-child {
+navtoggle.responsive li last-child {
     padding: 0 0 10px;
 }
